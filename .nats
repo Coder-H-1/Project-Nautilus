@@ -1,43 +1,45 @@
-UNDER Projects.Nautilus ;
-use template "custom" ;
-use core.designs as "designs" ;
-use core.github.functions as "github_functions" ;
 
 !!page-heading < Nautilus />
 
 !!page-body <
+
+$core.designs.block{
 !![1] What is Project Nautilus?
 It is a **network of several connected sub/mini projects** for building some solid fundamental skills and effective efficiency in various techinal fields. 
+$core.designs.small_LINE;
+[1]>>END
+}
 
-[1]>>END 
-
+$core.designs.side_curve_block{
 !![2] How It Works.
 It can be taken as a connection between multiple projects. A sub projects can talk to other projects and increase the efficiency of the final outcome. 
-$designs.small_Line;
+$core.designs.small_Line;
+[2]>>END
+}
 
-[2]>>END 
-
+$core.designs.block{
 !![3] Idea Behind the Project.
 A connection for projects to fetch or create a function much faster without having to rely or having complete dependance something that doesn't exists.
-$designs.small_LINE;
+$core.designs.small_LINE;
 
 I created a first project local __**LLM**__ that does or executes a series of defined task on a computer.
 It worked out great, So I thought why not make it infinitely expandable using sub projects without making much changes in the __**LLM**__ project
-$designs.small_LINE;
+$core.designs.small_LINE;
 [3]>>END
+}
 
 !![4] File Structure.
-Github Repository: $designs.link($github_functions.show_repo_link);
+Github Repository: $core.designs.link{$github_functions.show_repo_link};
 
-$designs.FILE_TREE($github_functions.show_files == True);
-$designs.big_LINE;
+$core.designs.FILE_TREE{$github_functions.show_files == True};
+$core.designs.big_LINE;
 
 [4]>>END
 
 !![5] Contributors 
-$designs.content_center(
-    $designs.profile(CoderH);
-);
-$designs.small_LINE;
+$core.designs.content_center{
+    $core.designs.profile(CoderH);
+};
+$core.designs.small_LINE;
 [5]>>END
 />
