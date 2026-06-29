@@ -1,39 +1,35 @@
 
-!!page-heading < Nautilus />
+!!page-heading < Nautilus >
 
-!!page-body <
+Heading_1 < What is Project Nautilus? > {
+It is a **network of several connected sub/mini projects** for building some solid fundamental skills and effective efficiency in various techinal fields.
+}
 
-!![1] What is Project Nautilus? [
-It is a **network of several connected sub/mini projects** for building some solid fundamental skills and effective efficiency in various techinal fields. 
-$core.designs.small_LINE; ]
-[1]>>END
-
-!![2] How It Works. [
+Heading_2 < How It Works. > {
     It can be taken as a connection between multiple projects. A sub projects can talk to other projects and increase the efficiency of the final outcome. 
- ]
-[2]>>END
+}
 
 
-!![3] Idea Behind the Project. [
+Heading_3 < Idea Behind the Project. > {
     A connection for projects to fetch or create a function much faster without having to rely or having complete dependance something that doesn't exists.
+
+    !!center.small.line
 
     I created a first project local __**LLM**__ that does or executes a series of defined task on a computer.
     It worked out great, So I thought why not make it infinitely expandable using sub projects without making much changes in the __**LLM**__ project
-]
-[3]>>END
+}
 
 
-!![4] File Structure. [
+Heading_4 < File Structure. > {
 Github Repository: $core.github_functions.show_repo_link;
 
-Files and Folders: [
+Files and Folders: 
         $core.github_functions.show_files;
-        ]
-]
-[4]>>END
+        
+}
 
-!![5] Contributors [
+Heading_5 < Contributors > {
     profile(CoderH)
-]
-[5]>>END
-/>
+    !!center.small.line
+}
+
